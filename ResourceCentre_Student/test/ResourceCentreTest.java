@@ -157,6 +157,7 @@ public class ResourceCentreTest { // Test class
 		// fail("Not yet implemented");
 		// write your code here
 
+
 		// Test if Item list is not null but empty, so that can add a new item
 		assertNotNull("Test if there is a valid Chromebook arraylist to add", camcorderList);
 
@@ -169,6 +170,7 @@ public class ResourceCentreTest { // Test class
 
 		// Check if item cb1 with Asset Tag CB0011 is loaned
 		assertFalse("Test if chromebook is loaned", cb1.getIsAvailable());
+
 
 	}
 
@@ -198,8 +200,8 @@ public class ResourceCentreTest { // Test class
 		ResourceCentre.doReturnCamcorder(camcorderList, "CC0011");
 
 		// Test if the item was finally returned or not returned
-		assertTrue("Test if camcorder is returned", cb1.getIsAvailable());
-		assertFalse("Test if camcorder is not returned", cb2.getIsAvailable());
+		assertTrue("Test if camcorder is returned", cc1.getIsAvailable());
+		assertFalse("Test if camcorder is not returned", cc2.getIsAvailable());
 
 	}
 
