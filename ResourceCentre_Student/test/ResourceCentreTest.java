@@ -138,7 +138,7 @@ public class ResourceCentreTest { // Test class
 		// write your code here
 		// Written by Chad
 		// Test if Item list is not null but empty, so that can add a new item
-		assertNotNull("Test if there is a valid Chromebook arraylist to add", camcorderList);
+		assertNotNull("Test if there is a valid Camcorder arraylist to add", camcorderList);
 
 		// Add some camcorder items
 		ResourceCentre.addCamcorder(camcorderList, cc1);
@@ -159,7 +159,7 @@ public class ResourceCentreTest { // Test class
 
 
 		// Test if Item list is not null but empty, so that can add a new item
-		assertNotNull("Test if there is a valid Chromebook arraylist to add", camcorderList);
+		assertNotNull("Test if there is a valid Chromebook arraylist to add", chromebookList);
 
 		// Add some chromebook items
 		ResourceCentre.addChromebook(chromebookList, cb1);
